@@ -1,0 +1,94 @@
+@charset "utf-8";
+BODY{PADDING-BOTTOM:0px;MARGIN:0px;PADDING-LEFT:0px;PADDING-RIGHT:0px;WORD-WRAP:break-word;PADDING-TOP:0px}H1,H2,H3,H4,H5,H6,HR,P,DL,DT,DD,UL,OL,LI,PRE,FORM,FIELDSET,LEGEND,BUTTON,INPUT,TEXTAREA,TH,TD{PADDING-BOTTOM:0px;MARGIN:0px;PADDING-LEFT:0px;PADDING-RIGHT:0px;WORD-WRAP:break-word;PADDING-TOP:0px}UL,OL,LI{LIST-STYLE-TYPE:none}H1,H2,H3,H4,H5,H6{FONT-SIZE:100%}
+BODY {
+	BACKGROUND-COLOR: #ffffff; MARGIN: 0px; COLOR: #333; FONT-SIZE: 12px
+}
+A {
+	COLOR: #333; TEXT-DECORATION: none
+}
+.clear {
+	CLEAR: both
+}
+
+/*头部菜单*/
+.header {
+	BACKGROUND: #3071bf; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; HEIGHT: 40px; PADDING-TOP: 0px
+}
+.header .logo {
+	WIDTH: 400px; FLOAT: left; HEIGHT: 40px; font-size:19px; line-height:40px; color:#FFF; font-weight:700
+}
+.header .welcome A {
+	PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #d5d1cf; TEXT-DECORATION: underline
+}
+.header .right_menu {
+	DISPLAY: block; FLOAT: right; PADDING-TOP: 6px
+}
+.right_menu SPAN A {
+	TEXT-ALIGN: center; LINE-HEIGHT: 28px; BORDER-RIGHT-WIDTH: 1px; PADDING-LEFT: 26px; PADDING-RIGHT: 10px; DISPLAY: block; BACKGROUND: url(a.gif) #368ddd no-repeat 5px 5px; FLOAT: left; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; COLOR: #fff; MARGIN-LEFT: 8px; FONT-SIZE: 12px; BORDER-LEFT-WIDTH: 1px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.right_menu SPAN A:hover {
+	BACKGROUND-COLOR: #1071bf; COLOR: #fff
+}
+.right_menu SPAN A.bb {
+	BACKGROUND-POSITION: 5px -27px
+}
+.right_menu SPAN A.cc {
+	BACKGROUND-POSITION: 5px -60px
+}
+.right_menu SPAN A.dd {
+	BACKGROUND-POSITION: 5px -91px
+}
+
+/*左侧菜单*/
+#menu {TEXT-ALIGN: left; MARGIN-TOP: 10px; WIDTH: 150px; FLOAT: left; FONT-SIZE: 12px;}
+#menu UL{ padding:5px;}
+#menu UL LI A {PADDING-LEFT: 20px; DISPLAY: block; LINE-HEIGHT: 26px; HEIGHT: 26px; COLOR: #2e4d8e; TEXT-DECORATION: none}
+#menu UL LI A:hover {BACKGROUND-COLOR: #3071bf; COLOR: #fff}
+.none {DISPLAY: none; padding:0px; margin:0px;}
+.menubg_1 {
+	CURSOR: pointer;TEXT-ALIGN: left; LINE-HEIGHT: 28px; MARGIN-TOP: 1px; TEXT-INDENT: 25px; WIDTH: 150px; BACKGROUND: url(bg.png) repeat-x; HEIGHT: 30px; COLOR: #888; FONT-SIZE: 14px; FONT-WEIGHT: 700
+}
+.menubg_2 {
+	CURSOR: pointer; TEXT-ALIGN: left; LINE-HEIGHT: 28px; MARGIN-TOP: 1px; TEXT-INDENT: 25px; WIDTH: 150px; BACKGROUND: url(bg.png) left -31px; HEIGHT: 30px; COLOR: #000; FONT-SIZE: 14px; FONT-WEIGHT: 700
+}
+
+/*UL框架风格设置，一般不用去修改*/
+.ui-layout-pane {
+	BORDER-BOTTOM: #c6d6e7 0px solid; BORDER-LEFT: #c6d6e7 0px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: #c6d6e7 0px solid; BORDER-RIGHT: #c6d6e7 0px solid; PADDING-TOP: 0px
+}
+.ui-layout-pane-north {
+	BORDER-BOTTOM: #c6d6e7 0px solid; BORDER-LEFT: #c6d6e7 0px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: #c6d6e7 0px solid; BORDER-RIGHT: #c6d6e7 0px solid; PADDING-TOP: 0px
+}
+.ui-layout-pane-south {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: #f4f6fa; BORDER-TOP: #c6d6e7 0px solid; PADDING-TOP: 0px
+}
+.ui-layout-pane-west {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 0px; BACKGROUND: #f7f7fa; OVERFLOW: hidden; PADDING-TOP: 3px; BORDER-RIGHT: #c6d6e7 0px solid;
+}
+.ui-layout-center .ui-layout-content {
+	BORDER-LEFT: #c6d6e7 0px solid; BORDER-TOP: #c6d6e7 0px solid
+}
+.ui-layout-pane-center {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.ui-layout-content {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.ui-layout-resizer {
+	BACKGROUND: #f3f3f3
+}
+.ui-layout-toggler {
+	BACKGROUND: #bcd
+}
+.ui-layout-resizer-dragging {
+	BACKGROUND: #e2ecef
+}
+.ui-layout-resizer:hover .ui-layout-toggler {
+	BACKGROUND: #bcd
+}
+.ui-layout-resizer:hover .ui-layout-toggler:hover {
+	BACKGROUND: #fc0
+}
+.ui-layout-resizer-dragging-limit {
+	BACKGROUND: #bcd
+}
